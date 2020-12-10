@@ -262,8 +262,13 @@ function tiPackConv() {
                 fnameOut = program.outfile 
             }
             else {
-               
-                fnameOut = pathObj.dir + '/' + pathObj.name + '.txt'// todo
+                if (pathObj.dir.length > 0) {
+                    fnameOut = pathObj.dir + '/' + pathObj.name + '.txt'
+                }
+                else {
+                    fnameOut = pathObj.name + '.txt'
+                }
+                
             }            
         }
         else {
