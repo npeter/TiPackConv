@@ -9,7 +9,7 @@ node tipackconv -i input file [-o output file] [-v]
 
 ## Example:
 
-![todo](Doc\Example.png)
+![todo](Doc/Example.png)
 
 
 
