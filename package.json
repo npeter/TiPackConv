@@ -1,0 +1,14 @@
+{
+  "name": "tipackconv",
+  "version": "1.0.0",
+  "description": "converting TI packet sniffer data into excel.txt",
+  "main": "tipackconv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "npeter",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.0"
+  }
+}
